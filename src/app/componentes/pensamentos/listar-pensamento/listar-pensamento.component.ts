@@ -16,6 +16,11 @@ export class ListarPensamentoComponent implements OnInit {
       conteudo: 'Minha propriedade é decorada com @Input',
       autoria: 'Componente filho',
       modelo: 'modelo2'
+    },
+    {
+      conteudo: 'Esse é um pensamento para realizar o teste de formatação. Queremos validar se quando temos um pensamento maior que o tamanho pré-definido(256 caracteres). Com isso precisamos então colocar um pensamento bem mais longo, para que o car do pensamento tenha uma largura maior, assim conseguiremos validar as formatações e entender melhor o como vai funcionar o esquema...',
+      autoria: 'Formatador',
+      modelo: 'modelo1'
     }
   ];
 
