@@ -22,7 +22,7 @@
     <div class="mensagem__erro"
       *ngIf="formulario.get('autoria')?.errors?.['minusculo'] && formulario.get('autoria')?.touched">
         Esse campo aceita apenas letras minúsculas
-</div>
+    </div>
 
     <label for="modelo">Selecione o modelo do card:</label>
 
@@ -76,7 +76,8 @@
       </div>
     </div>
     <div class="acoes">
-      <button [disabled]="!formulario.valid" (click)="criarPensamento()" [ngClass]="habilitarBotao()">Salvar</button>
+      <button [disabled]="!formulario.valid" (click)="criarPensamento()"
+      [ngClass]="habilitarBotao()">Salvar</button>
       <button (click)="cancelar()" class="botao">Cancelar</button>
       <!-- <button routerLink="/listarPensamento" class="botao">Cancelar</button> -->
     </div>
