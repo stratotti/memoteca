@@ -12,6 +12,7 @@ export class ListarPensamentoComponent implements OnInit {
   listaPensamentos: Pensamento[] = [];
   paginaAtual: number = 1;
   haMaisPensamentos: boolean = true;
+  filtro: string = '';
   // listaPensamentos: Pensamento[] = [
   //   {
   //     conteudo: 'Passo informações para o componente filho',
@@ -29,9 +30,16 @@ export class ListarPensamentoComponent implements OnInit {
   //     modelo: 'modelo1'
   //   }
   // ];
+  constructor(private service: PensamentoService) { }
 
-  CarregarMaisPensamentos(){
-    this.service.listar(++this.paginaAtual).subscribe((listaPensamentosResponse) => {
+  ngOnInit(): void {
+    this.service.listar(this.paginaAtual, this.filtro).subscribe((listaPensamentosResponse) => {
+      this.listaPensamentos = listaPensamentosResponse;
+    });
+  }
+
+  carregarMaisPensamentos(){
+    this.service.listar(++this.paginaAtual, this.filtro).subscribe((listaPensamentosResponse) => {
       this.listaPensamentos.push(...listaPensamentosResponse);
       if(!listaPensamentosResponse.length){
         this.haMaisPensamentos = false;
@@ -39,10 +47,10 @@ export class ListarPensamentoComponent implements OnInit {
     });
   }
 
-  constructor(private service: PensamentoService) { }
-
-  ngOnInit(): void {
-    this.service.listar(this.paginaAtual).subscribe((listaPensamentosResponse) => {
+  pesquisarPensamentos(){
+    this.haMaisPensamentos = true;
+    this.paginaAtual = 1;
+    this.service.listar(this.paginaAtual, this.filtro).subscribe((listaPensamentosResponse) => {
       this.listaPensamentos = listaPensamentosResponse;
     });
   }
