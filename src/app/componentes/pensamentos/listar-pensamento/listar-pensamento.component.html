@@ -1,4 +1,3 @@
-
 <section class="container">
   <header class="header d-flex">
       <h2 class="ff-inter">Meu Mural</h2>
@@ -8,9 +7,12 @@
     <div *ngFor="let pensamento of listaPensamentos">
       <app-pensamento [pensamento]="pensamento"></app-pensamento>
     </div>
-
   </div>
 </section>
+
+<app-botao-carregar-mais [haMaisPensamentos]="haMaisPensamentos" (click)="CarregarMaisPensamentos()">
+
+</app-botao-carregar-mais>
 
 <ng-template #semPensamentos>
   <div class="ff-inter sem-pensamentos">

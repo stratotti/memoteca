@@ -8,7 +8,10 @@ import { PensamentoService } from '../pensamento.service';
   styleUrls: ['./listar-pensamento.component.css']
 })
 export class ListarPensamentoComponent implements OnInit {
+
   listaPensamentos: Pensamento[] = [];
+  paginaAtual: number = 1;
+  haMaisPensamentos: boolean = true;
   // listaPensamentos: Pensamento[] = [
   //   {
   //     conteudo: 'Passo informações para o componente filho',
@@ -27,12 +30,20 @@ export class ListarPensamentoComponent implements OnInit {
   //   }
   // ];
 
-  constructor(private service: PensamentoService) { }
-
-  ngOnInit(): void {
-    this.service.listar().subscribe((listaPensamentosResponse) => {
-      this.listaPensamentos = listaPensamentosResponse;
+  CarregarMaisPensamentos(){
+    this.service.listar(++this.paginaAtual).subscribe((listaPensamentosResponse) => {
+      this.listaPensamentos.push(...listaPensamentosResponse);
+      if(!listaPensamentosResponse.length){
+        this.haMaisPensamentos = false;
+      }
     });
   }
 
+  constructor(private service: PensamentoService) { }
+
+  ngOnInit(): void {
+    this.service.listar(this.paginaAtual).subscribe((listaPensamentosResponse) => {
+      this.listaPensamentos = listaPensamentosResponse;
+    });
+  }
 }

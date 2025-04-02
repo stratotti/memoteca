@@ -17,6 +17,108 @@
       "conteudo": "Angular é o melhor",
       "autoria": "Dev1",
       "modelo": "modelo3"
+    },
+    {
+      "id": 4,
+      "conteudo": "Pensamento 4",
+      "autoria": "Desenvolvedor 1",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 5,
+      "conteudo": "Pensamento 5",
+      "autoria": "Desenvolvedor 2",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 6,
+      "conteudo": "Pensamento 6",
+      "autoria": "Desenvolvedor 3",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 7,
+      "conteudo": "Pensamento 7",
+      "autoria": "Desenvolvedor 4",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 8,
+      "conteudo": "Pensamento 8",
+      "autoria": "Desenvolvedor 5",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 9,
+      "conteudo": "Pensamento 9",
+      "autoria": "Desenvolvedor 6",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 10,
+      "conteudo": "Pensamento 10",
+      "autoria": "Desenvolvedor 7",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 11,
+      "conteudo": "Pensamento 11",
+      "autoria": "Nay",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 12,
+      "conteudo": "Pensamento 12",
+      "autoria": "Dev",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 13,
+      "conteudo": "Pensamento 13, esse pensamento deverá ter um conteúdo maior. Dessa maneira teremos um pensamento em que o card ficará com uma formatação diferente justamente pelo fato de ser um pensamento mais extenso. Então isso aqui está sendo feito justamente para testarmos a formatação dos cards.",
+      "autoria": "Dev Diferente",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 14,
+      "conteudo": "Pensamento 14",
+      "autoria": "Desenvolvedor 1",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 15,
+      "conteudo": "Pensamento 15",
+      "autoria": "Desenvolvedor 2",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 16,
+      "conteudo": "Pensamento 16",
+      "autoria": "Desenvolvedor 3",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 17,
+      "conteudo": "Pensamento 17",
+      "autoria": "Desenvolvedor 4",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 18,
+      "conteudo": "Pensamento 18",
+      "autoria": "Desenvolvedor 5",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 19,
+      "conteudo": "Pensamento 19",
+      "autoria": "Desenvolvedor 6",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 20,
+      "conteudo": "Pensamento 20",
+      "autoria": "Desenvolvedor 7",
+      "modelo": "modelo2"
     }
   ]
 }
