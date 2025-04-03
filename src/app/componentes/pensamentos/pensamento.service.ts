@@ -29,14 +29,20 @@ export class PensamentoService {
     return this.http.post<Pensamento>(this.apiUrl, pensamento);
   }
 
-  excluir(id: number): Observable<Pensamento> {
-    const url = `${this.apiUrl}/${id}`;
-    return this.http.delete<Pensamento>(url);
-  }
-
   editar(pensamento: Pensamento): Observable<Pensamento>{
     const url = `${this.apiUrl}/${pensamento.id}`;
     return this.http.put<Pensamento>(url, pensamento);
+  }
+
+  mudarFavorito(pensamento: Pensamento): Observable<Pensamento>{
+    pensamento.favorito = !pensamento.favorito;
+    const url = `${this.apiUrl}/${pensamento.id}`;
+    return this.editar(pensamento);
+  }
+
+  excluir(id: number): Observable<Pensamento> {
+    const url = `${this.apiUrl}/${id}`;
+    return this.http.delete<Pensamento>(url);
   }
 
   buscarPorId(id: number): Observable<Pensamento> {
