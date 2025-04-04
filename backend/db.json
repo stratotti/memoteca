@@ -19,14 +19,14 @@
       "conteudo": "Angular é o melhor",
       "autoria": "Dev1",
       "modelo": "modelo3",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 4,
       "conteudo": "Pensamento 4",
       "autoria": "Desenvolvedor 1",
       "modelo": "modelo3",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 5,
@@ -54,7 +54,7 @@
       "conteudo": "Pensamento 8",
       "autoria": "Desenvolvedor 5",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 9,
@@ -68,7 +68,7 @@
       "conteudo": "Pensamento 10",
       "autoria": "Desenvolvedor 7",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 11,
@@ -89,7 +89,7 @@
       "conteudo": "Pensamento 13, esse pensamento deverá ter um conteúdo maior. Dessa maneira teremos um pensamento em que o card ficará com uma formatação diferente justamente pelo fato de ser um pensamento mais extenso. Então isso aqui está sendo feito justamente para testarmos a formatação dos cards.",
       "autoria": "Dev Diferente",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 14,
@@ -124,7 +124,7 @@
       "conteudo": "Pensamento 18",
       "autoria": "mestre yoda",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 19,
