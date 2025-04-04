@@ -5,42 +5,42 @@
       "conteudo": "Que bom que vc veio",
       "autoria": "Nay",
       "modelo": "modelo1",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 2,
       "conteudo": "Estudando Angular",
       "autoria": "Dev",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 3,
       "conteudo": "Angular é o melhor",
       "autoria": "Dev1",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 4,
       "conteudo": "Pensamento 4",
       "autoria": "Desenvolvedor 1",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 5,
       "conteudo": "Pensamento 5",
       "autoria": "Desenvolvedor 2",
       "modelo": "modelo2",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 6,
       "conteudo": "Pensamento 6",
       "autoria": "Desenvolvedor 3",
       "modelo": "modelo1",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "conteudo": "Pensamento 8",
       "autoria": "Desenvolvedor 5",
       "modelo": "modelo3",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 9,
@@ -89,7 +89,7 @@
       "conteudo": "Pensamento 13, esse pensamento deverá ter um conteúdo maior. Dessa maneira teremos um pensamento em que o card ficará com uma formatação diferente justamente pelo fato de ser um pensamento mais extenso. Então isso aqui está sendo feito justamente para testarmos a formatação dos cards.",
       "autoria": "Dev Diferente",
       "modelo": "modelo3",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 14,
@@ -103,7 +103,7 @@
       "conteudo": "Pensamento 15",
       "autoria": "Desenvolvedor 2",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 16,
@@ -117,14 +117,14 @@
       "conteudo": "Pensamento 17",
       "autoria": "Desenvolvedor 4",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 18,
       "conteudo": "Pensamento 18",
       "autoria": "mestre yoda",
       "modelo": "modelo3",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 19,
